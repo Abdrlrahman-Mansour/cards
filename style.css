@@ -1,0 +1,206 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+.card0{
+    width: 210px;
+    height: 288px;
+    background: gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: background 1.6s;
+    -webkit-transition: background 1.6s;
+    -moz-transition: background 1.6s;
+    -ms-transition: background 1.6s;
+    -o-transition: background 1.6s;
+    overflow: hidden;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   box-shadow: 0 70px 63px -55px #000000;
+    position: relative;
+    background:url(PicsArt_08-18-05.07.31.jpg)  center center no-repeat;
+    background-size: 350px;
+    padding: 20px;
+}
+.card0:hover{
+    background: url(PicsArt_08-18-05.07.31.jpg) center center no-repeat;
+    background-size: 500px;
+    
+}
+h2{
+  opacity: .5;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 10px;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+}
+h2:hover{
+    opacity: 1;
+    color: #ffffff;
+}
+
+.border{
+    width: 200px;
+    height: 275px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: transparent;
+    transition: border 1s;
+    -webkit-transition: border 1s;
+    -moz-transition: border 1s;
+    -ms-transition: border 1s;
+    -o-transition: border 1s;
+    position: relative;
+    
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+.icons{
+    width: 50px;
+    height: 130px;
+    position: absolute;
+    fill: #fff;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(132, 154, 162);
+
+}
+
+.fa:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+.card1{
+    width: 200px;
+    height: 278px;
+    background-color: black;
+    padding: 20px;
+    
+    
+}
+.card2{
+    width: 200px;
+    height: 278px;
+    background-color: black;
+    padding: 20px;
+    
+    
+}
+.color{
+    color: #ffffff;
+    opacity: .5;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+.color:hover{
+    opacity: 2;
+}
+
+.card2{
+    width: 210px;
+    height: 288px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    box-shadow: 0 70px 63px -55px #000000;
+    position: relative;
+    background:url(photo_2022-08-18_17-38-04.jpg)  center center no-repeat;
+    background-size: 350px;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+}
+.card2:hover{
+    background: url(photo_2022-08-18_17-38-04.jpg) center top no-repeat;
+    background-size: 500px;
+    
+}  
+
+
+
+
+
+
+
+
+.card1{
+    width: 210px;
+    height: 278px;
+    background-color: black;
+    padding: 20px 10;
+    background: url(AliAhmedAli.jpeg) no-repeat center top;
+    background-size: 350px;
+    border-radius: 15px;
+    transition:  1.5s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 70px 63px -55px #000000;
+}
+.card1:hover{
+    background: url(AliAhmedAli.jpeg) no-repeat center top;
+    background-size: 500px;
+}
+.text-icons{
+    width: 200px;
+    height: 270px;
+    border-radius: 15px;
+    background: transparent;
+    transition:  1s;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text-icons:hover{
+    border: 1px solid white;
+}
+.social-icons a{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    opacity:  0.5;
+    transition: 1s ;
+    text-decoration: none;
+}
+.social-icons a:hover{
+    opacity: 1 ;
+}
